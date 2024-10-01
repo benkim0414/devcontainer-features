@@ -1,0 +1,38 @@
+{
+    "alpine": {
+        "image": "mcr.microsoft.com/devcontainers/base:alpine",
+        "features": {
+            "lazyvim": {}
+        }
+    },
+    "noble": {
+        "image": "ubuntu:noble",
+        "features": {
+            "lazyvim": {}
+        }
+    },
+    "jammy": {
+        "image": "ubuntu:jammy",
+        "features": {
+            "lazyvim": {}
+        }
+    },
+    "focal": {
+        "image": "ubuntu:focal",
+        "features": {
+            "lazyvim": {}
+        }
+    },
+    "bookworm": {
+        "image": "debian:bookworm",
+        "features": {
+            "lazyvim": {}
+        }
+    },
+    "bullseye": {
+        "image": "debian:bullseye",
+        "features": {
+            "lazyvim": {}
+        }
+    }
+}
