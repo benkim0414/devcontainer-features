@@ -1,0 +1,23 @@
+{
+    "id": "neovim",
+    "version": "1.0.0",
+    "name": "Neovim (from source)",
+    "documentationURL": "https://github.com/benkim0414/devcontainer-features/tree/main/src/neovim",
+    "description": "Install an up-to-date version of Neovim built from source.",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "stable",
+                "nightly",
+                "v0.10.1",
+                "v0.10.0",
+                "v0.9.5",
+                "v0.9.4",
+                "v0.9.3"
+            ],
+            "default": "stable",
+            "description": "Select or enter a Neovim version."
+        },
+    }
+}
